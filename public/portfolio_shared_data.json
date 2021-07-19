@@ -79,6 +79,11 @@
           "level": "60"
         },
         {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "60"
+        },
+        {
           "name": "Wordpress",
           "class": "devicon-wordpress-plain",
           "level": "60"
@@ -111,11 +116,6 @@
         {
           "name": "Git",
           "class": "devicon-git-plain",
-          "level": "60"
-        },
-        {
-          "name": "Source Tree",
-          "class": "devicon-sourcetree-plain",
           "level": "60"
         },
         {
