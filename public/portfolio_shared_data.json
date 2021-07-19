@@ -4,14 +4,19 @@
       "titles": [ "Front-end Developer", "Front-end Team lead", "Wordpress Developer" ],
       "social": [
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "bitbucket",
+          "url": "https://bitbucket.org/quangthang93/",
+          "class": "fab fa-bitbucket"
+        },        
+        {
+          "name": "codepen",
+          "url": "https://codepen.io/quangthang/pens/public",
+          "class": "fab fa-codepen"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "github",
+          "url": "https://github.com/quangthang11t3",
+          "class": "fab fa-github"
         }
       ],
       "image": "myProfile.jpg"
@@ -29,16 +34,6 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
@@ -54,13 +49,88 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "AngularJS",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "VueJS",
+          "class": "devicon-vuejs-plain",
+          "level": "80"
+        },
+        {
+          "name": "ReactJS",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
           "level": "65"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Wordpress",
+          "class": "devicon-wordpress-plain",
+          "level": "60"
+        },
+        {
+          "name": "Gulp",
+          "class": "devicon-gulp-plain",
+          "level": "60"
+        },
+        {
+          "name": "Grunt",
+          "class": "devicon-grunt-plain",
+          "level": "60"
+        },
+        {
+          "name": "Webpack",
+          "class": "devicon-webpack-plain",
+          "level": "60"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "60"
+        },
+        {
+          "name": "Trello",
+          "class": "devicon-trello-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
+        },
+        {
+          "name": "Source Tree",
+          "class": "devicon-sourcetree-plain",
+          "level": "60"
+        },
+        {
+          "name": "Photoshop",
+          "class": "devicon-photoshop-plain",
+          "level": "60"
+        },
+        {
+          "name": "XD",
+          "class": "devicon-xd-plain",
+          "level": "60"
+        },
+        {
+          "name": "Sketch",
+          "class": "devicon-sketch-plain",
           "level": "60"
         }
       ]

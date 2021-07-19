@@ -5,6 +5,10 @@ import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
 import phpIcon from "@iconify/icons-logos/php";
 import wpIcon from "@iconify/icons-logos/wordpress";
+import jsIcon from "@iconify/icons-logos/javascript";
+import mysqlIcon from "@iconify/icons-logos/mysql";
+import htmlIcon from "@iconify/icons-logos/html-5";
+import cssIcon from "@iconify/icons-logos/css-3";
 // import languageHtml5 from '@iconify-icons/mdi/language-html5';
 
 
@@ -34,30 +38,48 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={html5Icon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={phpIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={wpIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  <div>
+                    <Icon
+                      icon={htmlIcon}
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    />
+                    <Icon
+                      icon={cssIcon}
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    />
+                    <Icon
+                      icon={jsIcon}
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    />
+                  </div>
+                    <Icon
+                      icon={vueIcon}
+                      style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    />
+                    <Icon
+                      icon={reactIcon}
+                      style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    />
+                    <Icon
+                      icon={angularIcon}
+                      style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    />
+                  <div>
+                    <Icon
+                      icon={phpIcon}
+                      style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    />
+                    <Icon
+                      icon={mysqlIcon}
+                      style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    />
+                  </div>
+                  <div>
+                    <Icon
+                      icon={wpIcon}
+                      style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    />
+                  </div>
                 </span>
               </div>
             </div>
