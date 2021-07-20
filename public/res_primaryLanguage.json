@@ -81,37 +81,78 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "Demo",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "08.2020 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Front-end",
+          "Shopify",
+          "PHP"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "HTML5",
+          "CSS3",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "VueJS",
+          "Shopify",
+          "Bootstrap"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "XCOMPANY",
+        "title": "Fullstack Developer",
+        "years": "09.2018 - 07.2020",
         "mainTech": [
-          "Angular 7/8"
+          "PHP",
+          "AWS",
+          "JavaScript"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
           "PHP",
+          "AWS",
+          "Wordpress",
+          "Woocommerce",
+          "MySQL",
+          "HTML5",
+          "CSS3",
           "JavaScript",
-          "DHTMLX Gantt"
+          "VueJS",
+          "Bootstrap",
+          "Unity3D",
+          "Docker",
+          "Webpack",
+          "GulpJS"
+        ]
+      },
+      {
+        "company": "Global Design IT",
+        "title": "Front-end Developer",
+        "years": "08.2016 - 08.2018",
+        "mainTech": [
+          "Front-end"
+        ],
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "PHP",
+          "CMS8341",
+          "GruntJS"
+        ]
+      },
+      {
+        "company": "FPT Software",
+        "title": "Intern",
+        "years": "10.2015 - 01.2016",
+        "mainTech": [
+          "Android"
+        ],
+        "technologies": [
+          "Android",
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "AngularJS"
         ]
       }
     ]
