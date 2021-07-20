@@ -37,7 +37,7 @@ class Projects extends Component {
                   <span className="project-date">{projects.startDate}</span>
                   <br />
                   <p className="project-title-settings mt-3">
-                    PROJECT LIST
+                    {projects.title[0]}
                   </p>
                 </div>
               </div>
