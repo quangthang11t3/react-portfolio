@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Experience extends Component {
   render() {
@@ -65,13 +66,15 @@ class Experience extends Component {
     return (
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
-          <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
-                {sectionName}
-              </span>
-            </h1>
-          </div>
+          <ScrollAnimation animateIn="fadeInUp">
+            <div className="col-md-12">
+              <h1 className="section-title txt-bold" style={{ color: "black" }}>
+                <span className="text-black" style={{ textAlign: "center" }}>
+                  {sectionName}
+                </span>
+              </h1>
+            </div>
+          </ScrollAnimation>
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>

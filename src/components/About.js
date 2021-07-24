@@ -9,6 +9,7 @@ import jsIcon from "@iconify/icons-logos/javascript";
 import mysqlIcon from "@iconify/icons-logos/mysql";
 import htmlIcon from "@iconify/icons-logos/html-5";
 import cssIcon from "@iconify/icons-logos/css-3";
+import ScrollAnimation from 'react-animate-on-scroll';
 // import languageHtml5 from '@iconify-icons/mdi/language-html5';
 
 
@@ -26,9 +27,12 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
+          <ScrollAnimation animateIn="fadeInUp">
+            <h1 className="txt-bold" style={{ color: "black" }}>
+              <span>{sectionName}</span>
+            </h1>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp">
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
@@ -115,7 +119,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello} </span>
                     <br />
                     <br />
                     {about}
@@ -124,6 +128,7 @@ class About extends Component {
               </div>
             </div>
           </div>
+          </ScrollAnimation>
         </div>
       </section>
     );

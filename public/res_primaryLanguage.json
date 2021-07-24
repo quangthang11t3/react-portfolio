@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Thang. I'm a Web Developer. I'm working with HTML, CSS, JavaScript, PHP, etc.. and I also want to work with newest front-end frameworks like Vue, Angular and React. Thank you 💜",
+      "description_header": "Hi　👋",
+      "description": "I'm Thang. I'm a Web Developer. I'm working with HTML, CSS, JavaScript, PHP, etc.. and I can also work with newest front-end frameworks like Vue, Angular and React.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,42 +11,26 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Ethical convenience store",
+        "startDate": "6/2021",
+        "description": "",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/projects/ethical_conveni.jpg",
+          "images/projects/ethical_conveni.jpg"
         ],
-        "url": "",
+        "url": "https://ethical-conveni.com/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-devicon-plain",
+            "name": "Shopify"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,26 +39,275 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Sanfuji",
+        "startDate": "3/2021",
+        "description": "",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/projects/sanfuji.jpg",
+          "images/projects/sanfuji.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://www.housing-messe.com/yell/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "PARCO",
+        "startDate": "01/2021",
+        "description": "",
+        "images": [
+          "images/projects/parco.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-vuejs-plain",
+            "name": "VueJS"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Vegeness",
+        "startDate": "01/2021",
+        "description": "",
+        "images": [
+          "images/projects/vegeness.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Edamame",
+        "startDate": "2019-2020",
+        "description": "",
+        "images": [
+          "images/projects/edamame.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Dogulab",
+        "startDate": "2018-2019",
+        "description": "",
+        "images": [
+          "images/projects/dogulab.jpg"
+        ],
+        "url": "https://www.dogulab.com/",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "dotFes2019",
+        "startDate": "11/2019",
+        "description": "",
+        "images": [
+          "images/projects/dotfes2019.jpg"
+        ],
+        "url": "https://www.dotfes.jp/2019osaka/",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "dotFes2018",
+        "startDate": "8/2018",
+        "description": "",
+        "images": [
+          "images/projects/dotfes2018.jpg"
+        ],
+        "url": "https://www.dotfes.jp/2018vietnam/",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Yamanashi Sport",
+        "startDate": "8/2018",
+        "description": "",
+        "images": [
+          "images/projects/yamanashi-sport.jpg"
+        ],
+        "url": "https://www.sports-camp.pref.yamanashi.jp/index.html",
+        "technologies": [
+          {
+            "class": "devicon-devicon-plain",
+            "name": "CMS8341"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Sasebo",
+        "startDate": "8/2018",
+        "description": "",
+        "images": [
+          "images/projects/sasebo.jpg",
+          "images/projects/sasebo.jpg"
+        ],
+        "url": "https://www.city.sasebo.lg.jp/99life/index.html",
+        "technologies": [
+          {
+            "class": "devicon-devicon-plain",
+            "name": "CMS8341"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
@@ -99,7 +332,7 @@
         ]
       },
       {
-        "company": "XCOMPANY",
+        "company": "Cshool",
         "title": "Fullstack Developer",
         "years": "09.2018 - 07.2020",
         "mainTech": [

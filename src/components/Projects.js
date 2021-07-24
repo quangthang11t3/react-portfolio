@@ -1,5 +1,33 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import Slider from "react-slick";
+import ScrollAnimation from 'react-animate-on-scroll';
+
+var settings = {
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  variableWidth: true,
+  centerMode: true,
+  autoplaySpeed: 3000,
+  autoplay: true,
+  dots: false,
+  responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+};
 
 class Projects extends Component {
   constructor(props) {
@@ -21,7 +49,7 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-4"
+            className="slideItem"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
@@ -31,7 +59,7 @@ class Projects extends Component {
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
-                    height="230"
+                    height="200"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
                   <span className="project-date">{projects.startDate}</span>
@@ -50,12 +78,16 @@ class Projects extends Component {
     return (
       <section id="portfolio">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
-          </div>
+          <ScrollAnimation animateIn="fadeInUp">
+              <h1 className="section-title txt-bold" style={{ color: "black" }}>
+                <span>{sectionName}</span>
+              </h1>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp">
+              <div className="col-md-12 mx-auto slideWrap">
+                <Slider {...settings} className="row mx-auto">{projects}</Slider>
+              </div>
+          </ScrollAnimation>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}
