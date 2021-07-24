@@ -8,6 +8,8 @@
 ⚠️ Note that if you have portfolio on different repository than `{username}.github.io`, 
 set `homepage` in `package.json` to `https://{username}.github.io/{repository}/` 
 before deploying portfolio.
+
+// "homepage": "https://quangthang11t3.github.io/react-portfolio/",
 </pre>
 
 <h3>:star: Inspirations</h3>
