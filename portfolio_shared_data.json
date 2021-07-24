@@ -1,0 +1,138 @@
+{
+    "basic_info": {
+      "name": "Nguyen Quang Thang",
+      "titles": [ "Fullstack Developer", "Front-end Team lead", "Wordpress Developer", "Front-end Developer" ],
+      "social": [
+        {
+          "name": "bitbucket",
+          "url": "https://bitbucket.org/quangthang93/",
+          "class": "fab fa-bitbucket"
+        },        
+        {
+          "name": "codepen",
+          "url": "https://codepen.io/quangthang/pens/public",
+          "class": "fab fa-codepen"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/quangthang11t3",
+          "class": "fab fa-github"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "AngularJS",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "VueJS",
+          "class": "devicon-vuejs-plain",
+          "level": "80"
+        },
+        {
+          "name": "ReactJS",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "65"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "60"
+        },
+        {
+          "name": "Wordpress",
+          "class": "devicon-wordpress-plain",
+          "level": "60"
+        },
+        {
+          "name": "Gulp",
+          "class": "devicon-gulp-plain",
+          "level": "60"
+        },
+        {
+          "name": "Grunt",
+          "class": "devicon-grunt-plain",
+          "level": "60"
+        },
+        {
+          "name": "Webpack",
+          "class": "devicon-webpack-plain",
+          "level": "60"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "60"
+        },
+        {
+          "name": "Trello",
+          "class": "devicon-trello-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
+        },
+        {
+          "name": "Photoshop",
+          "class": "devicon-photoshop-plain",
+          "level": "60"
+        },
+        {
+          "name": "XD",
+          "class": "devicon-xd-plain",
+          "level": "60"
+        },
+        {
+          "name": "Sketch",
+          "class": "devicon-sketch-line",
+          "level": "60"
+        }
+      ]
+    }
+  }
