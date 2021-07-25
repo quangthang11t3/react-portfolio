@@ -17,13 +17,15 @@ var settings = {
     {
       breakpoint: 1050,
       settings: {
-        slidesToShow: 2
+        slidesToShow: 3,
+        infinite: false
       }
     },
     {
-      breakpoint: 768,
+      breakpoint: 767,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 3,
+        settings: 'unslick'
       }
     }
   ]
@@ -84,8 +86,11 @@ class Projects extends Component {
               </h1>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp">
-              <div className="col-md-12 mx-auto slideWrap">
+              <div className="col-md-12 mx-auto slideWrap pc-only">
                 <Slider {...settings} className="row mx-auto">{projects}</Slider>
+              </div>
+              <div className="col-md-12 mx-auto slideWrap sp-only">
+                {projects}
               </div>
           </ScrollAnimation>
           <ProjectDetailsModal

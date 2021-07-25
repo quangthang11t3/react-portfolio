@@ -13,6 +13,20 @@ html {
 	font-weight: bold !important;	
 }
 
+.pc-only {
+	display: block;
+	@media (max-width: 1050px) {
+		display: none !important;
+	}
+  }
+  
+.sp-only {
+	display: none !important;
+	@media (max-width: 1050px) {
+		display: flex !important;
+	}
+}
+
 .aligner {
 	display: flex;
 	align-items: center;
@@ -130,6 +144,7 @@ header h1 {
 .foto img {
 	display: block;
 	width: 100%;
+	object-fit: cover;
 }
 
 .foto div {
@@ -388,9 +403,15 @@ header h1 {
 
 // Slick custom
 .slideItem {
-height: 100%;
-overflow: hidden;
+	height: 100%;
+	overflow: hidden;
 	padding: 0 10px; 
+	@media (max-width: 1050px) {
+		width: 45%;
+	}
+	@media (max-width: 767px) {
+		width: 100%;
+	}
 }
 
 .slick-next:before, .slick-prev:before {
@@ -404,6 +425,11 @@ overflow: hidden;
 	// 	max-height: 320px;
 	// 	// height: 100%;
 	// }
+	@media (max-width: 1050px) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 	.slick-track {
 		height: 300px;
 		overflow-y: hidden;
