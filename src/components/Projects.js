@@ -12,23 +12,7 @@ var settings = {
   centerMode: true,
   autoplaySpeed: 3000,
   autoplay: true,
-  dots: false,
-  responsive: [
-    {
-      breakpoint: 1050,
-      settings: {
-        slidesToShow: 3,
-        infinite: false
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 3,
-        settings: 'unslick'
-      }
-    }
-  ]
+  dots: false
 };
 
 class Projects extends Component {
@@ -51,7 +35,7 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className="slideItem"
+            className="slideItem col-lg-3 col-md-6 col-12"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
@@ -86,12 +70,16 @@ class Projects extends Component {
               </h1>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp">
-              <div className="col-md-12 mx-auto slideWrap pc-only">
+            <div className="slideWrap">
+              {projects}
+            </div>
+              
+              {/* <div className="col-md-12 mx-auto slideWrap pc-only">
                 <Slider {...settings} className="row mx-auto">{projects}</Slider>
               </div>
               <div className="col-md-12 mx-auto slideWrap sp-only">
                 {projects}
-              </div>
+              </div> */}
           </ScrollAnimation>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}

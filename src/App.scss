@@ -420,16 +420,14 @@ header h1 {
 }
 
 .slideWrap {
-	// .slick-slider {
-	// 	display: block;
-	// 	max-height: 320px;
-	// 	// height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	// @media (max-width: 1050px) {
+	// 	display: flex;
+	// 	flex-wrap: wrap;
+	// 	justify-content: center;
 	// }
-	@media (max-width: 1050px) {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
 	.slick-track {
 		height: 300px;
 		overflow-y: hidden;
