@@ -35,6 +35,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -63,6 +67,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -100,7 +108,7 @@
       "images": [
         "images/projects/vegeness.jpg"
       ],
-      "url": "",
+      "url": "https://vegeness.com/",
       "technologies": [
         {
           "class": "devicon-wordpress-plain",
@@ -117,6 +125,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -152,6 +164,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -183,6 +199,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -214,6 +234,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -245,6 +269,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -276,6 +304,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
@@ -308,6 +340,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     }
@@ -326,6 +362,7 @@
         "HTML5",
         "CSS3",
         "JavaScript",
+        "jQuery",
         "VueJS",
         "Shopify",
         "Bootstrap"
@@ -349,6 +386,7 @@
         "HTML5",
         "CSS3",
         "JavaScript",
+        "jQuery",
         "VueJS",
         "Bootstrap",
         "Unity3D",
@@ -368,6 +406,7 @@
         "HTML5",
         "CSS3",
         "JavaScript",
+        "jQuery",
         "PHP",
         "CMS8341",
         "GruntJS"
@@ -383,6 +422,7 @@
       "technologies": [
         "Android",
         "JavaScript",
+        "jQuery",
         "HTML5",
         "CSS3",
         "AngularJS"
