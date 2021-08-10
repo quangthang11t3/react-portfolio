@@ -87,6 +87,16 @@ class Projects extends Component {
             data={this.state.deps}
           />
         </div>
+        <ScrollAnimation animateIn="fadeInUp">
+          <div className="viewmore">
+            <span>View more on</span>
+            <p><img
+              height="250px"
+              src="images/common/hand.png"
+              alt="View more"
+            /></p>
+          </div> 
+        </ScrollAnimation>
       </section>
     );
   }
