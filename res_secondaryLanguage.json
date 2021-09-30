@@ -43,6 +43,38 @@
       ]
     },
     {
+      "title": "Demo Inc.",
+      "startDate": "4/2021",
+      "description": "",
+      "images": [
+        "images/projects/demo.jpg",
+        "images/projects/demo.jpg"
+      ],
+      "url": "https://www.demo.co.jp/",
+      "technologies": [
+        {
+          "class": "devicon-wordpress-plain",
+          "name": "Wordpress"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
+        }
+      ]
+    },
+    {
       "title": "Sanfuji",
       "startDate": "3/2021",
       "description": "",
@@ -133,7 +165,7 @@
       ]
     },
     {
-      "title": "Edamame",
+      "title": "Edamame - EC",
       "startDate": "2019-2020",
       "description": "",
       "images": [
