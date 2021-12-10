@@ -43,6 +43,38 @@
         ]
       },
       {
+        "title": "Nine Field",
+        "startDate": "8/2021",
+        "description": "",
+        "images": [
+          "images/projects/nine.jpg",
+          "images/projects/nine.jpg"
+        ],
+        "url": "https://ecopr.jp/",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
+          }
+        ]
+      },
+      {
         "title": "Demo Inc.",
         "startDate": "4/2021",
         "description": "",
