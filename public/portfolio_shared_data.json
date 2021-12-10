@@ -137,6 +137,11 @@
           "name": "Sketch",
           "class": "devicon-sketch-line",
           "level": "60"
+        },
+        {
+          "name": "Figma",
+          "class": "devicon-figma-line",
+          "level": "60"
         }
       ]
     }
