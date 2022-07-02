@@ -9,6 +9,7 @@ import jsIcon from "@iconify/icons-logos/javascript";
 import mysqlIcon from "@iconify/icons-logos/mysql";
 import htmlIcon from "@iconify/icons-logos/html-5";
 import cssIcon from "@iconify/icons-logos/css-3";
+import laravelIcon from "@iconify/icons-logos/laravel";
 import ScrollAnimation from 'react-animate-on-scroll';
 // import languageHtml5 from '@iconify-icons/mdi/language-html5';
 
@@ -80,8 +81,12 @@ class About extends Component {
                   </div>
                   <div>
                     <Icon
-                      icon={wpIcon}
+                      icon={laravelIcon}
                       style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                    />
+                    <Icon
+                      icon={wpIcon}
+                      style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
                     />
                   </div>
                 </span>

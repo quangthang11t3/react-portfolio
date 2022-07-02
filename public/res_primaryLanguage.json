@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi　👋",
-      "description": "I'm Thang. I'm a Web Developer. I'm working with HTML, CSS, JavaScript, PHP, etc.. and I can also work with newest front-end frameworks like Vue, Angular and React.",
+      "description": "I'm Thang. I'm a web developer as well as a bridge engineer. I'm working with HTML, CSS, JavaScript, PHP, etc.. ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -10,6 +10,46 @@
       }
     },
     "projects": [
+      {
+        "title": "NFT Market Place",
+        "startDate": "2/2022",
+        "description": "",
+        "images": [
+          "images/projects/owners.png",
+          "images/projects/owners.png"
+        ],
+        "url": "https://nft-owners.jp/",
+        "technologies": [
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-laravel-plain",
+            "name": "Laravel"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-vuejs-plain",
+            "name": "VueJS"
+          },
+          {
+            "class": "devicon-aws-plain",
+            "name": "AWS"
+          }
+        ]
+      },
       {
         "title": "Ethical convenience store",
         "startDate": "6/2021",
@@ -414,9 +454,33 @@
     ],
     "experience": [
       {
-        "company": "Demo",
+        "company": "Owners Inc.",
+        "title": "Fullstack Developer/ BrSE",
+        "years": "02.2022 - present",
+        "mainTech": [
+          "PHP",
+          "Laravel",
+          "VueJS",
+          "NuxtJS",
+          "AWS"
+        ],
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "VueJS",
+          "NuxtJS",
+          "Bootstrap",
+          "PHP",
+          "Laravel",
+          "AWS",
+          "Docker",
+          "SQL"
+        ]
+      },
+      {
+        "company": "Demo Inc.",
         "title": "Front-End Developer",
-        "years": "08.2020 - present",
+        "years": "08.2020 - 12.2021",
         "mainTech": [
           "Front-end",
           "Shopify",
@@ -433,7 +497,7 @@
         ]
       },
       {
-        "company": "Cshool",
+        "company": "Cshool Inc.",
         "title": "Fullstack Developer",
         "years": "09.2018 - 07.2020",
         "mainTech": [
@@ -460,7 +524,7 @@
         ]
       },
       {
-        "company": "Global Design IT",
+        "company": "Global Design IT Inc.",
         "title": "Front-end Developer",
         "years": "08.2016 - 08.2018",
         "mainTech": [
@@ -477,7 +541,7 @@
         ]
       },
       {
-        "company": "FPT Software",
+        "company": "FPT Software Inc.",
         "title": "Intern",
         "years": "10.2015 - 01.2016",
         "mainTech": [
