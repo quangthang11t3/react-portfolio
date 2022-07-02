@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "こんにちは　👋",
-    "description": "タンです。Webエンジニアです。 HTML、CSS、JavaScript、PHPなどを使用しています。また、Vue、Angular、Reactなどの最新のフロントエンドフレームワークも使用できます。",
+    "description": "タンです。 Web開発者であり、ブリッジエンジニアでもあります。 HTML、CSS、JavaScript、PHPなどを使用しています。",
     "section_name": {
       "about": "私について",
       "projects": "プロジェクト",
@@ -10,6 +10,46 @@
     }
   },
   "projects": [
+    {
+      "title": "NFT Market Place",
+      "startDate": "2/2022",
+      "description": "",
+      "images": [
+        "images/projects/owners.png",
+        "images/projects/owners.png"
+      ],
+      "url": "https://nft-owners.jp/",
+      "technologies": [
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-laravel-plain",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-vuejs-plain",
+          "name": "VueJS"
+        },
+        {
+          "class": "devicon-aws-plain",
+          "name": "AWS"
+        }
+      ]
+    },
     {
       "title": "Ethical convenience store",
       "startDate": "6/2021",
@@ -414,9 +454,33 @@
   ],
   "experience": [
     {
-      "company": "Demo",
+      "company": "株式会社Owners",
+      "title": "Fullstack Developer/ BrSE",
+      "years": "02.2022 - present",
+      "mainTech": [
+        "PHP",
+        "Laravel",
+        "VueJS",
+        "NuxtJS",
+        "AWS"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "VueJS",
+        "NuxtJS",
+        "Bootstrap",
+        "PHP",
+        "Laravel",
+        "AWS",
+        "Docker",
+        "SQL"
+      ]
+    },
+    {
+      "company": "株式会社Demo",
       "title": "Front-End Developer",
-      "years": "08.2020 - present",
+      "years": "08.2020 - 12.2021",
       "mainTech": [
         "Front-end",
         "Shopify",
@@ -433,7 +497,7 @@
       ]
     },
     {
-      "company": "Cshool",
+      "company": "株式会社Cshool",
       "title": "Fullstack Developer",
       "years": "09.2018 - 07.2020",
       "mainTech": [
@@ -460,7 +524,7 @@
       ]
     },
     {
-      "company": "Global Design IT",
+      "company": "株式会社Global Design IT",
       "title": "Front-end Developer",
       "years": "08.2016 - 08.2018",
       "mainTech": [
@@ -477,7 +541,7 @@
       ]
     },
     {
-      "company": "FPT Software",
+      "company": "株式会社FPT Software",
       "title": "Intern",
       "years": "10.2015 - 01.2016",
       "mainTech": [

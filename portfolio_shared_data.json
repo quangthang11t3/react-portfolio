@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Nguyen Quang Thang",
-      "titles": [ "Fullstack Developer", "Front-end Team lead", "Wordpress Developer", "Front-end Developer" ],
+      "titles": [ "Team leader", "Bridge engineer", "Fullstack Developer" ],
       "social": [
         {
           "name": "bitbucket",
@@ -79,13 +79,18 @@
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Laravel",
+          "class": "devicon-laravel-plain",
+          "level": "65"
         },
         {
           "name": "AWS",
           "class": "devicon-amazonwebservices-original",
+          "level": "60"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
           "level": "60"
         },
         {
@@ -129,6 +134,11 @@
           "level": "60"
         },
         {
+          "name": "AI",
+          "class": "devicon-ai-plain",
+          "level": "60"
+        },
+        {
           "name": "XD",
           "class": "devicon-xd-plain",
           "level": "60"
@@ -141,6 +151,11 @@
         {
           "name": "Figma",
           "class": "devicon-figma-line",
+          "level": "60"
+        },
+        {
+          "name": "Cacoo",
+          "class": "devicon-cacoo-line",
           "level": "60"
         }
       ]
